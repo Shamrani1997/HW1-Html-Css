@@ -1,0 +1,38 @@
+
+ #grad1 {
+    height: 900px;
+    background-attachment: fixed;
+    background-color: rgb(208, 67, 236); /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(164, 121, 233), rgb(231, 8, 8));
+  }
+  img{
+      float: left;
+      padding: 30px;
+    
+  }
+  table, th, td {  
+        border:1px solid black;
+
+  }
+  .t{
+    font-family: 'Roboto', sans-serif;
+  }
+
+  button{
+         
+        display: inline-block;
+        padding: 15px 25px;
+        margin-left: 700px;
+        margin-top: 60px;
+        font-size: 24px;
+        text-align: center;
+        text-decoration: none;
+        outline: none;
+        color: #fff;
+        background-color: #a269e4;
+        border: none;
+        border-radius: 15px;
+      
+  }
+  
+ 

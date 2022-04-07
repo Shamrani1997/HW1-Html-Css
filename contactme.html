@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body{
+            background-image: url(background-image.png);
+            background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+            
+        }
+
+      form{
+          position: relative;
+          top: 100px;
+          left: 500px;
+      }
+
+      label{
+       position: relative; left: 250px;
+      }
+
+    </style>
+</head>
+
+
+<body>
+  
+    <div>
+        <form action="">
+    <div class="row">
+        <label for="lname"> Your Nmae</label>
+        <div class="col-75">
+    <input type="text" id="fname" name="firstname" style="width: 500px;">
+    </div>
+  </div>
+
+  <div class="row">
+    <label for="lname">Your Email</label>
+    <div class="col-75">
+      <input type="email" id="email" name="email" style="width: 500px;">
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Your Massage</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject"  style="width: 500px ; height: 200px;" ></textarea>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <input type="submit" value="Submit"style="position: relative; left: 250px;">
+  </div>
+  </form>
+</div>
+
+</body>
+</html>
